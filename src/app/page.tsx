@@ -57,10 +57,10 @@ export default function Home() {
               "Zyn Snus is committed to providing a premium nicotine experience.",
               "Our mission is to enhance your lifestyle with innovation and quality."
             ]}
-            imageSrc={assetMap.find(a => a.id === "about-image")?.url}
             showBorder={true}
             titleClassName="text-gray-800"
             descriptionClassName="text-gray-800"
+            imageSrc={assetMap.find(a => a.id === "about-image")?.url}
           />
         </div>
       </div>
