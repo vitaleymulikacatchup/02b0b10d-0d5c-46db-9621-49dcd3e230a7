@@ -59,6 +59,8 @@ export default function Home() {
             ]}
             imageSrc={assetMap.find(a => a.id === "about-image")?.url}
             showBorder={true}
+            titleClassName="text-gray-800"
+            descriptionClassName="text-gray-800"
           />
         </div>
       </div>
@@ -67,6 +69,9 @@ export default function Home() {
           <ProductCardOne
             title="Our Products"
             products={products}
+            className="bg-blue-50"
+            cardNameClassName="text-gray-800"
+            cardPriceClassName="text-gray-800"
           />
         </div>
       </div>
@@ -80,6 +85,10 @@ export default function Home() {
             inputPlaceholder="Email address"
             buttonText="Submit"
             termsText="By signing up, you agree to our Terms and Conditions."
+            className="bg-blue-50"
+            tagClassName="text-gray-800"
+            titleClassName="text-gray-800"
+            descriptionClassName="text-gray-800"
           />
         </div>
       </div>
@@ -92,6 +101,7 @@ export default function Home() {
             ]}
             logoSrc="/brand/zyn-logo-footer.png"
             copyrightText="© 2023 Zyn Snus"
+            className="bg-blue-50 text-gray-800"
           />
         </div>
       </div>
