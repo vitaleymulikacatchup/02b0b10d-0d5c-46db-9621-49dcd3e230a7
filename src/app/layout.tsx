@@ -1,16 +1,5 @@
 import type { Metadata } from "next";
-import {
-  Inter_Tight,
-  Playfair_Display,
-  Roboto,
-  Open_Sans,
-  Lato,
-  Montserrat,
-  Poppins,
-  Raleway,
-  Ubuntu,
-  Nunito
-} from "next/font/google";
+import { Inter_Tight, Playfair_Display, Roboto, Open_Sans, Lato, Montserrat, Poppins, Raleway, Ubuntu, Nunito } from "next/font/google";
 import "./globals.css";
 
 const interTight = Inter_Tight({
